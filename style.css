@@ -1,0 +1,70 @@
+.top-bar{
+  color: white;
+  background-color: #108C92;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#jg{
+  font-weight: 550;
+  text-decoration: underline;
+}
+.second-section{
+  display: flex;
+  flex-direction: row;
+}
+.left-side{
+  height: 730px;
+  width: 50%;
+  background-image: url(./pics/Burger.jpg);
+  background-size: 100% 730px;
+}
+#bold-grubhub{
+  display: block;
+  margin-top: 64px;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-bottom: 325px;
+}
+
+#second-image{
+  /* height: 200px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* margin-left: 360px; */
+}
+#cursive-words{
+  height: 300px;
+  width: 350px;
+}
+
+.right-side{
+  width: 50%;
+  height: 730px;
+  background-color: grey;
+}
+#top-right-words{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.youll-love-class{
+  width: 363px;
+  -webkit-font-smoothing: antialiased;
+color: #000;
+box-sizing: inherit;
+font-family: grubhubsans-bold;
+font-weight: 400;
+margin-top: 0;
+margin-bottom: 0;
+line-height: 1.15;
+font-size: 3.5vw;
+}
+.address-finder-and-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
